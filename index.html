@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George Mwamba - Graphic Designer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/backgrounds/Tech%20and%20Gaming%20Retail%20Website%20in%20Dark%20Blue%20and%20Purple%20Simple%20Dark%20Style.png');
+      background-repeat: repeat;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+
+    .header h2 {
+      font-size: 1.5em;
+      margin: 0;
+      color: #ccc;
+    }
+
+    /* FIXED GALLERY SECTION */
+    .work h2 {
+      font-size: 2.5em;
+      text-align: center;
+    }
+
+    .work .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      justify-items: center;
+      margin-top: 20px;
+    }
+
+    /* kwa screens bigi: 4 images per row */
+    @media (min-width: 768px) {
+      .work .gallery {
+        grid-template-columns: repeat(4, 300px);
+        justify-content: center;
+      }
+    }
+
+    .work .gallery img {
+      width: 300px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .work .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    }
+
+    .skills {
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.2em;
+    }
+
+    .section {
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 2.5em;
+    }
+
+    .section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .services, .contact {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .services div, .contact div {
+      flex: 1;
+      min-width: 200px;
+      margin: 10px;
+    }
+
+     .photo img {
+  width: 150px;
+  height: 200px; /*  perfect circle */
+  object-fit: cover;
+  border-radius: 50%; /* Makes the image circular */
+}
+    
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>GEORGE MWAMBA</h1>
+    <h2>Graphic Designer</h2>
+  </div>
+
+  <div class="skills">
+    <ul>
+      <li>Graphic Design Fundamentals / Visual Communication / Branding Awareness </li>
+      <li>Creative Direction / Digital Tools Proficiency /</li>
+      <li>Detail & Content Design</li>
+    </ul>
+  </div>
+
+  <div class="work">
+    <h2>My Work</h2>
+    <div class="gallery">
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/Black%20and%20White%20Metallic%20Tech%20Talk%20Event%20Poster.png" alt="Project 2"></div>
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/backgrounds/Tech%20and%20Gaming%20Retail%20Website%20in%20Dark%20Blue%20and%20Purple%20Simple%20Dark%20Style%20(1).png" alt="Project 3"></div>
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/Groom.png" alt="Project 4"></div>
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/1759768983139_1759768981748_Elegant.png" alt="Project 5"></div>
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/magazine.jpg" alt="Project 6"></div>
+      <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/Black%20Gold%20Minimalist%20Elegant%20Business%20LinkedIn%20Banner.png" alt="Project 7"></div>
+       <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/fire_logo.jpg" alt="Project 2"></div>
+       <div><img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/intro_img/colorfu_concertl.jpg" alt="Project 1"></div>
+       
+    </div>
+
+    <h2>My Design Philosophy</h2>
+    <p>I believe in creating clean, responsive, and user-friendly designs that work seamlessly across all devices. My focus is on simplicity, functionality, and ensuring that users enjoy a smooth experience without distractions. A good design should not only look modern but also make information easy to access and interact with.</p>
+  </div>
+
+  <div class="section services">
+    <h2>What I Do</h2>
+    <div>
+      <h3>Illustration</h3>
+      <p>I work primarily in digital formats, delivering high quality editorial illustrations and brand assets.</p>
+    </div>
+    <div>
+      <h3>Visual Identity</h3>
+      <p>I am well-versed in branding. I create unique and memorable visual identities for clients.</p>
+    </div>
+    <div>
+      <h3>Adaptability</h3>
+      <p>I am flexible and able to adjust my design style and workflow when projects, trends, or client needs change.</p>
+    </div>
+  </div>
+
+  <div class="section contact">
+    <h2>Get in Touch</h2>
+    <div>
+      <p><strong>LinkedIn</strong></p>
+      <p><a href="https://www.linkedin.com/in/mwamba-george-998638387">mwamba george</a></p>
+      <p><strong>Email</strong></p>
+      <p><a href="mailto:mendymwamba@gmail.com">mendymwamba@gmail.com</a></p>
+      <p><strong>Phone</strong></p>
+      <p>+254-759-556-962</p>
+    </div>
+    <div class="photo">
+      <img src="https://xgowtsettgdhisqdbsmg.supabase.co/storage/v1/object/public/assets/best.jpg" alt="Portrait of George Mwamba">
+    </div>
+  </div>
+</body>
+</html>
