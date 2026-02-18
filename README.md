@@ -95,7 +95,7 @@ The portfolio showcases various design works including:
 
 **George Mwamba**
 
-- **LinkedIn**: [mwamba george](https://www.linkedin.com/in/mwamba-george-998638387)
+- **LinkedIn**: [Mwamba George](https://www.linkedin.com/in/mwamba-george-998638387)
 - **Email**: [mendymwamba@gmail.com](mailto:mendymwamba@gmail.com)
 - **Phone**: +254-759-556-962
 
